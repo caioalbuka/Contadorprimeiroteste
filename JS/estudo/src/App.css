@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color: cadetblue;
+}
+
+button {
+  width: 200px;
+  color: darkblue;
+  background-color: darkmagenta;
+  border: grey;
+  border-radius: 10px;
+  border-width: 5px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.buttons {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-flow: column;
+}
+.container {
+  align-items: center;
+  align-content: center;
+  background-color: indigo;
+  border: lawngreen;
+
+  width: 400px;
+  height: 120px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column;
+}
